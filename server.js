@@ -16,7 +16,7 @@ db.on('error', err => {
 });
 
 db.on('connected', () => {
-    console.log('mongoose is conneceted...')
+    console.log('mongoose is connected...')
 });
 
 db.on('disconnected', () => {
