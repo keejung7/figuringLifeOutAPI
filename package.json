@@ -1,0 +1,36 @@
+{
+  "name": "figuringlifeoutapi",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "SET NODE_ENV=dev && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keejung7/figuringLifeOutAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "keejung park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keejung7/figuringLifeOutAPI/issues"
+  },
+  "homepage": "https://github.com/keejung7/figuringLifeOutAPI#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
