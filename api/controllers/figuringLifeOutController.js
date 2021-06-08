@@ -39,7 +39,7 @@ function deletePlant(req, res) {
     Plant.deleteOne({_id: req.params.id}, function(err, plant) {
         if (err)
             res.send(err);
-        res.json({ message: 'Plant successfully deleted'. result });
+        res.json({ message: 'Plant successfully deleted'});
     });
 };
 
